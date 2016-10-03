@@ -25,9 +25,16 @@ html {
 }
 
 .banner {
-
-}
+    position: relative;
+    overflow: hidden;
+  }
 
 .banner-content {
-
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  bottom: 0;
+  color: white;
+  display: inline;
+  width: 100%;
 }
